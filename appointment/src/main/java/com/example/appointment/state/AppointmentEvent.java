@@ -1,0 +1,24 @@
+package com.example.appointment.state;
+
+public enum AppointmentEvent {
+
+    PAYMENT_SUCCESS,
+
+    PAYMENT_FAILED,
+
+    PAYMENT_TIMEOUT,
+
+    PATIENT_CANCELLED,
+
+    DOCTOR_CANCELLED,
+
+    PATIENT_CHECKED_IN,
+
+    QUEUE_JOINED,
+
+    CONSULTATION_STARTED,
+
+    CONSULTATION_COMPLETED,
+
+    PATIENT_NO_SHOW
+}
